@@ -3,3 +3,9 @@
 ### 模块介绍
 1. ajax模块
   * 支持get和post提交
+  * 几个参数
+  ```javascript
+   MQ.ajax({
+     
+   })
+  ```
