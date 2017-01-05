@@ -51,7 +51,7 @@ export function ajax(url, options) {
                 data = MQ.trim(options.dataType).toLowerCase() === 'json' ? JSON.parse(xhr.responseText) : xhr.responseText;
                 options.success(data);
             } else {
-                options.success({
+                options.error({
                     error: xhr.responseText,
                     errorStatus: xhr.status
                 });
