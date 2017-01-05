@@ -3,8 +3,10 @@
 > 通过这个小工程可以大致了解jquery内部机制，模块分的很清楚，可以直接阅读源码。如果你喜欢，就给个star吧 :bowtie:
 
 ### 模块介绍
-1. ajax模块
-  * 支持`get`和`post`提交
+
+**ajax模块**
+
+  * 支持`get`和`post`提交
   * 几个参数
 ```javascript
    MQ.ajax({
@@ -17,9 +19,10 @@
      complete:完成回调
    })
 ```
-2. animate模块
 
-  * 进行基本的动画，内部使用tween.js(参考[张鑫旭](https://github.com/zhangxinxu/Tween)),进行动画
+**animate模块**
+
+  * 进行基本的动画，内部使用tween.js(参考[张鑫旭](https://github.com/zhangxinxu/Tween)),进行动画
   * 支持：  
 `linear`,`easeIn`,`easeOu`t,`easeBoth`,`easeInStrong`,`easeOutStrong`,`easeBothStrong`,`elasticIn`,`elasticOutelasticBoth`,`backIn`,`backOut`,`backBoth`,`bounceIn`,`bounceOut`,`bounceBoth`这几种动画形式。
   
